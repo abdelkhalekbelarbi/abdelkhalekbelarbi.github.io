@@ -1,0 +1,133 @@
+
+.container-fluid{
+padding: 3% 15%;
+
+}
+#title{
+ background-color:#0A97B0;
+}
+
+
+h1{
+font-family: "montserrat-black";
+font-size: 3rem;
+line-height: 1.5;
+}
+h3{
+    font-family: "montserrat-bold";
+    font-size: 1.5rem;
+}
+p{
+color:#8f8f8f ;
+}
+h2{
+font-family: "montserrat-bold";
+font-size: 3rem;
+line-height: 1.5;
+}
+
+
+
+.container {
+  display: flex;              /* Use flexbox layout */
+  align-items: center;        /* Vertically center the items */
+}
+
+.responsive-image {
+  width: 50%;                  /* Control the size of the image */
+  height: auto;                /* Maintain the aspect ratio */
+  object-fit: cover;           /* Ensure the image covers the container */
+  object-position: top center; /* Position the image so it stays aligned at the top */
+  border-radius: 50%;          /* Make the image circular */
+}
+
+.title-responsive-image {
+  width: 100%;
+  transform: rotate(25deg);    /* Rotate the title */
+}
+
+
+
+/*abdelkhalek-section*/
+.abdelkhalek-box {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .abdelkhalek-box i {
+    font-size: 3rem;  /* You can adjust the icon size */
+    color: #333;  /* Icon color */
+    margin-bottom: 10px; /* Space between icon and text */
+  }
+  
+  .abdelkhalek-box h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .abdelkhalek-box p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+/*Testimonials section*/
+
+
+/* Adjust margins and padding for images inside the carousel */
+.carousel-item img.Testimonials {
+  margin: 0;  /* Remove any default margin */
+  padding: 0; /* Remove any padding if present */
+  display: block; /* Ensures the image fills the container without gaps */
+  width: 100%; /* Makes the image span the entire width of the carousel */
+  height: auto; /* Maintain the aspect ratio of the image */
+  object-fit: cover; /* Ensures images cover the entire area of the carousel item */
+  border-radius: 10px; /* Optional: add rounded corners to the images */
+}
+
+/* Optional: Control the space between carousel items */
+.carousel-inner {
+  padding: 0; /* Ensure no padding inside the inner carousel container */
+}
+
+/* Adjust margins for the carousel container itself */
+.carousel {
+  margin-top: 20px; /* Adjust top margin */
+  margin-bottom: 20px; /* Adjust bottom margin */
+  margin-left: 10px; /* Adjust left margin */
+  margin-right: 10px; /* Adjust right margin */
+}
+
+/* Adjust control buttons if needed */
+.carousel-control-prev, .carousel-control-next {
+  top: 50%; /* Center the buttons vertically */
+  transform: translateY(-50%); /* Vertically center the controls */
+}
+
+/* Ensure buttons do not overlap the image */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background to control icons */
+  border-radius: 50%; /* Make the icons circular */
+}
+
+
+
+/*Pricing-section*/
+#Pricing {
+padding: 100px;
+}
+
+
+
+/*fotter*/
+#fotter{
+color: #fff;
+}
+
+.social-icon{
+margin:20px 10px ;
+}
+
+
+
+
+
